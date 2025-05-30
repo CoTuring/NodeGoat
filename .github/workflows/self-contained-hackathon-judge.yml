@@ -1,7 +1,7 @@
 ﻿name: Hackathon Judge (Simplified)
 
 on:
-  pull_request:
+  pull_request_target:
     types: [opened, synchronize, reopened]
     branches: [main, master]
   workflow_dispatch:
